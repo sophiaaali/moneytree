@@ -4,13 +4,6 @@
 
 Emma Chen (Brown '27), Erin Kim (Brown '27), Katerina Nguyen (Brown '27), Sophia Li (Brown '27)
 
-Our Progress:
-
-- Planning - https://docs.google.com/document/d/1HctkuyDgykZczHIRPu9TgDxns2f8GtOZv4iKrOjjRmA/edit?usp=sharing
-- Coding - Week 1 Check-in: https://docs.google.com/document/d/1MNYlKCp3uWZzA1BpBkt944SNxTL7zm0sRkAbSA9TdMg/edit?usp=sharing
-- Coding - Week 2 Check-in: https://docs.google.com/document/d/1--FoDT1MVpiVcfaIbIy6GaxAclKDWIE2C2Nuf-Nxxbo/edit?usp=sharing
-- Coding - Week 3 Check-in: https://docs.google.com/document/d/1s9paFIVIIkuDJJ_wEnyNnGyBw23w1JhnVwvYlZIyKDc/edit?usp=sharing
-
 ## Description
 
 MoneyTree is a visually engaging and intuitive budget management web application that helps users track their expenses in a creative and interactive way. By associating budgets with plants, users can see their financial health grow (or wilt!) over time. Each budget corresponds to a plant, and its state reflects how well the user is managing their spending in relation to their budget. MoneyTree combines visual feedback with practical budgeting tools, offering an immersive experience that gamifies the process of financial responsibility.
