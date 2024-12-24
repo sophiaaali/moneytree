@@ -1,0 +1,142 @@
+/* Authentication Controls */
+.auth-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 0px;
+  padding: 0 0px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.auth-controls:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+/* Sign In/Out Button */
+.auth-controls button {
+  padding: 4px 16px;
+  height: 32px;
+  font-size: 14px;
+  border-radius: 16px;
+  background-color: #3a833b;
+  border: 1px solid #e9ecef;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  font-family: "Vollkorn", serif;
+}
+
+.auth-controls button:hover {
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+  color: #212529;
+}
+
+/* Sign In Button specific styles */
+.cl-signIn-button {
+  background: linear-gradient(135deg, #3a833b 0%, #218838 100%) !important;
+  color: white !important;
+  border: none !important;
+  font-weight: 600 !important;
+}
+
+.cl-signIn-button:hover {
+  background: linear-gradient(135deg, #218838 0%, #1e7e34 100%) !important;
+  transform: translateY(-1px);
+}
+
+/* using clerk for login/out button */
+.cl-userButtonBox {
+  height: 32px;
+}
+
+.cl-userButtonTrigger {
+  padding: 0 !important;
+  height: 32px !important;
+  border-radius: 16px !important;
+  border: 2px solid rgba(255, 255, 255, 0.8) !important;
+  transition: all 0.2s ease !important;
+}
+
+.cl-userButtonTrigger:hover {
+  border-color: #3a833b !important;
+}
+
+.cl-userButtonAvatar {
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 14px !important;
+}
+
+/* App Header adjustments */
+.App-header {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #3a833b;
+  letter-spacing: -0.5px;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-content {
+  background-color: #eef7ee; /* Apply the light green background */
+  min-height: calc(100vh - 80px); /* Adjust for navbar height */
+  padding: 0px;
+}
+
+.sign-in-button:hover {
+  background-color: #31702b;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure it takes the full height of the viewport */
+  background-color: #eef7ee; /* Matches your existing App content style */
+  font-family: "Calistoga", cursive;
+}
+
+.home-page h2 {
+  color: #3a833b;
+  font-size: 24px;
+  margin-bottom: 20px; /* Adds spacing below the welcome text */
+}
+
+.home-page button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #3a833b;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Vollkorn", serif;
+  transition: background-color 0.3s ease;
+}
+
+.home-page button:hover {
+  background-color: #2d6b2f; /* Slightly darker green on hover */
+}

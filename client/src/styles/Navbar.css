@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Calistoga', cursive;
+    letter-spacing: 0.5px;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Calistoga', cursive;
+  }
+  
+  .logo-text {
+    font-size: 1.5rem;
+    color: #3a843b;
+    font-weight: bold;
+    margin-right: 5px;
+    font-family: 'Calistoga', cursive;
+    letter-spacing: 0.5px;
+  }
+  
+  .logo-icon {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-button {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #eff7ee; /* Light green background */
+    color: #39823C; /* Dark green text */
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #d7edd6; /* another darker green */
+  }
+  
+  .nav-button.active {
+    background-color: #39823C; /* Dark green background */
+    color: white;  
+  }
+  

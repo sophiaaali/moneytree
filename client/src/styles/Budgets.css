@@ -1,0 +1,195 @@
+/* Import statement */
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Forum&family=Marcellus&family=Vollkorn:ital,wght@0,400;0,600;1,400&display=swap");
+
+/* General Layout */
+.container {
+  display: flex;
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+
+/* History Section */
+.history-section {
+  flex: 1;
+  padding: 10px;
+  background-color: #eef7ee;
+  overflow-y: auto;
+  max-height: 82vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(41, 34, 34, 0.1);
+}
+
+.history-section h3 {
+  text-align: center;
+  color: #3a833b;
+  font-family: "Calistoga", cursive;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  text-transform: lowercase;
+}
+
+.history-section p {
+  text-align: center;
+  color: #3a833b;
+  font-style: italic;
+  font-family: "Vollkorn", serif;
+  font-size: 18px;
+}
+
+.history-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Vollkorn", serif;
+  font-size: 15px;
+  color: #333333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.history-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.history-item strong {
+  color: #3a833b;
+  font-family: "Marcellus", serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.action-buttons input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Vollkorn", serif;
+}
+
+.action-buttons button {
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Calistoga", cursive;
+  letter-spacing: 0.5px;
+  text-transform: lowercase;
+}
+
+.action-buttons button.update-btn {
+  background-color: #28a745;
+}
+
+.action-buttons button.delete-btn {
+  background-color: #dc3545;
+}
+
+/* Update Budget Section */
+.update-budget-section {
+  flex: 2;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.update-budget-section h3 {
+  text-align: center;
+  margin-bottom: 0px;
+  font-family: "Calistoga", cursive;
+  font-size: 25px;
+  color: #333;
+  letter-spacing: 0.5px;
+  text-transform: lowercase;
+}
+
+.update-budget-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-family: "Marcellus", serif;
+  font-size: 16px;
+  color: #555;
+  letter-spacing: 0.5px;
+  text-transform: lowercase;
+}
+
+.update-budget-form input,
+.update-budget-form textarea {
+  width: 90%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  font-family: "Vollkorn", serif;
+  font-style: italic;
+}
+
+.update-budget-form textarea {
+  height: 30px;
+}
+
+.update-budget-form button {
+  width: 50%;
+  padding: 5px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Calistoga", cursive;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+
+.update-budget-form button:hover {
+  background-color: #218838;
+}
+
+.form-select {
+  width: 95%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  font-family: "Vollkorn", serif;
+  background-color: #fff;
+  appearance: none;
+  font-style: italic;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.input-select:focus {
+  outline: none;
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
