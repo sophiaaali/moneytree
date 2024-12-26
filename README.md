@@ -10,19 +10,15 @@ Description:
 
 MoneyTree is a visually engaging and intuitive budget management web application that helps users track their expenses in a creative and interactive way. By associating budgets with plants, users can see their financial health grow (or wilt!) over time. Each budget corresponds to a plant, and its state reflects how well the user is managing their spending in relation to their budget. MoneyTree combines visual feedback with practical budgeting tools, offering an immersive experience that gamifies the process of financial responsibility.
 
-Design Choices:
-
-## Tech Stack
-Built using:
-- Frontend: React, TypeScript, HTML/CSS
+## Technology Stack
+Built with:
+- Frontend: React, TypeScript, HTML/CSS, JavaScript (Vanta.js)
 - Backend: Java, Spark Java
 - Database: Firebase Firestore
 - Authentication: Clerk
 - API: OpenAI API
 
 ## Features
-
-- Responsive design for mobile and desktop users
 
 ### Garden View
 
