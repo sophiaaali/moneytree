@@ -20,23 +20,20 @@ import Insights from "./Insights";
 import Garden from "./Garden";
 import { useState } from "react";
 
-// Firebase configuration settings using environment variables for security.
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_MAPBOX_TOKEN, // API key for Firebase authentication
-  authDomain: process.env.AUTH_DOMAIN, // Firebase Auth domain
-  projectId: process.env.PROJECT_ID, // Firebase project ID
-  storageBucket: process.env.STORAGE_BUCKET, // Storage bucket for file storage
-  messagingSenderId: process.env.MESSAGING_SENDER_ID, // Messaging sender ID for notifications
-  appId: process.env.APP_ID, // App ID for the Firebase project
+  apiKey: import.meta.env.VITE_MAPBOX_TOKEN,  
+  authDomain: process.env.AUTH_DOMAIN,  
+  projectId: process.env.PROJECT_ID,  
+  storageBucket: process.env.STORAGE_BUCKET,  
+  messagingSenderId: process.env.MESSAGING_SENDER_ID,  
+  appId: process.env.APP_ID, 
 };
 
-// Initialize Firebase app with the provided configuration
 initializeApp(firebaseConfig);
 
 function App() {
   const { user } = useUser();
 
-  // Props for Insights page
   const [goal, setGoal] = useState("");
   const [summary, setSummary] = useState("");
   const [advice, setAdvice] = useState("");
@@ -50,7 +47,6 @@ function App() {
         <SignedIn>
           <Navbar />
           <div className="App-header">
-            {/* <h1 aria-label="Project Header">Welcome to MoneyTree!</h1> */}
             <div className="auth-controls">
               <UserButton />
               <SignOutButton />
@@ -100,7 +96,7 @@ function App() {
         {/* Display login page and prompt user to sign in if not logged in */}
         <SignedOut>
           <div className="home-page">
-            <h2>Welcome to MoneyTree 🌱</h2>
+          <h2 className="text-designs">Welcome to MoneyTree 🌱</h2>
             <SignInButton mode="modal">
               <button className="sign-in-button">Sign In</button>
             </SignInButton>

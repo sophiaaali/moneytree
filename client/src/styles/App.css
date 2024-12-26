@@ -39,7 +39,7 @@
   color: #212529;
 }
 
-/* Sign In Button specific styles */
+/* Clerk styling */
 .cl-signIn-button {
   background: linear-gradient(135deg, #3a833b 0%, #218838 100%) !important;
   color: white !important;
@@ -52,7 +52,6 @@
   transform: translateY(-1px);
 }
 
-/* using clerk for login/out button */
 .cl-userButtonBox {
   height: 32px;
 }
@@ -75,7 +74,6 @@
   border-radius: 14px !important;
 }
 
-/* App Header adjustments */
 .App-header {
   padding: 8px 16px;
   display: flex;
@@ -96,11 +94,13 @@
 
 .App {
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .App-content {
-  background-color: #eef7ee; /* Apply the light green background */
-  min-height: calc(100vh - 80px); /* Adjust for navbar height */
+  background-color: #eef7ee;  
+  min-height: calc(100vh - 80px); 
   padding: 0px;
 }
 
@@ -113,15 +113,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Ensure it takes the full height of the viewport */
-  background-color: #eef7ee; /* Matches your existing App content style */
+  min-height: 100vh;  
   font-family: "Calistoga", cursive;
 }
 
 .home-page h2 {
   color: #3a833b;
   font-size: 24px;
-  margin-bottom: 20px; /* Adds spacing below the welcome text */
+  margin-bottom: 20px;  
 }
 
 .home-page button {
@@ -138,5 +137,23 @@
 }
 
 .home-page button:hover {
-  background-color: #2d6b2f; /* Slightly darker green on hover */
+  background-color: #2d6b2f;  
+}
+
+/* Highlighting design behind text for legibility and clarity */
+.text-designs {
+  display: inline-block; 
+  background-color: #eef7ee;  
+  padding: 8px 16px;  
+  border-radius: 20px;
+  color: #3a833b;  
+  font-size: 28px; 
+  font-weight: bold;  
+}
+
+
+/* Unscrollable home page */
+body, html {
+  overflow: hidden;
+  height: 100%;
 }
