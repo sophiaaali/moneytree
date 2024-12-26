@@ -35,12 +35,7 @@ const Insights: React.FC<InsightsProps> = ({
   error,
   setError,
 }) => {
-  // const [goal, setGoal] = useState("");
-  // const [summary, setSummary] = useState("");
-  // const [advice, setAdvice] = useState("");
-  // const [loading, setLoading] = useState({ summary: false, advice: false });
-  // const [error, setError] = useState({ summary: "", advice: "" });
-
+  
   const handleGenerateSummary = async () => {
     setLoading((prev) => ({ ...prev, summary: true }));
     setError((prev) => ({ ...prev, summary: "" }));

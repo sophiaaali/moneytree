@@ -6,8 +6,7 @@ async function queryAPI(
   endpoint: string,
   query_params: Record<string, string>
 ) {
-  // query_params is a dictionary of key-value pairs that gets added to the URL as query parameters
-  // e.g. { foo: "bar", hell: "o" } becomes "?foo=bar&hell=o"
+
   const paramsString = new URLSearchParams(query_params).toString();
   const url = `${HOST}/${endpoint}?${paramsString}`;
   const response = await fetch(url);
@@ -85,11 +84,6 @@ export async function getAdvice(user: string, goal: string) {
   return response;
 }
 
-// export async function clearUser(user: string = getLoginCookie() || "") {
-//   return await queryAPI("clear-user", {
-//     user,
-//   });
-// }
 
 export async function clearUser(user: string = getLoginCookie() || "") {
   try {

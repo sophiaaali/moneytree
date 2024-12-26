@@ -294,7 +294,7 @@ const Garden: React.FC<GardenProps> = ({ userId }) => {
         isOpen={isModalOpen}
         onRequestClose={closeModal}
         contentLabel="Manage Plant Budget"
-        ariaHideApp={false} // Disable this if using React.StrictMode
+        ariaHideApp={false} 
         className="modal"
       >
         {selectedPlant && (
