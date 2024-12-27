@@ -1,5 +1,7 @@
 # MoneyTree 🌱
 
+Try it out here https://welcome-to-moneytree-sophiaaalis-projects.vercel.app/!
+
 ## Contributors
 
 Emma Chen (Brown '27), Erin Kim (Brown '27), Katerina Nguyen (Brown '27), Sophia Li (Brown '27)
@@ -17,6 +19,8 @@ Built with:
 - Database: Firebase Firestore
 - Authentication: Clerk
 - API: OpenAI API
+
+Deployed Vite React on Vercel: https://welcome-to-moneytree-sophiaaalis-projects.vercel.app/ 
 
 ## Features
 
