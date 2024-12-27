@@ -19,14 +19,6 @@ export default defineConfig(({ mode }) => {
       "process.env.MEASUREMENT_ID": JSON.stringify(env.MEASUREMENT_ID),
       "process.env.MAPBOX_TOKEN": JSON.stringify(env.MAPBOX_TOKEN),
     },
-    plugins: [
-      react(),
-      viteImagemin({
-        pngquant: {
-          quality: [0.4, 0.6], // to speed up vercel deployment
-        },
-      }),
-    ],
     server: {
       port: 8000,
     },
