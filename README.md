@@ -1,6 +1,6 @@
 # MoneyTree 🌱
 
-Try it out here https://welcome-to-moneytree-sophiaaalis-projects.vercel.app/!
+Try it out here https://welcome-to-moneytree.vercel.app/!
 
 ## Contributors
 
@@ -20,7 +20,7 @@ Built with:
 - Authentication: Clerk
 - API: OpenAI API
 
-Deployed Vite React on Vercel: https://welcome-to-moneytree-sophiaaalis-projects.vercel.app/ 
+Deployed Vite React on Vercel: https://welcome-to-moneytree.vercel.app/
 
 ## Features
 
