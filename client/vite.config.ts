@@ -23,7 +23,7 @@ export default defineConfig(({ mode }) => {
       react(),
       viteImagemin({
         pngquant: {
-          quality: [0.6, 0.8], // to speed up vercel deployment
+          quality: [0.4, 0.6], // to speed up vercel deployment
         },
       }),
     ],
