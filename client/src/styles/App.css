@@ -151,9 +151,11 @@
   font-weight: bold;  
 }
 
-
-/* Unscrollable home page */
+/* Formatting home page animation display */
 body, html {
-  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   height: 100%;
+  overflow: hidden;
 }
