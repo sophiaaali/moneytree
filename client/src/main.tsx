@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
-import "./styles/index.css";
+// import "./styles/index.css";
 import App from "./components/App";
 import { ClerkProvider } from "@clerk/clerk-react";
 
