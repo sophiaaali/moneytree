@@ -10,7 +10,7 @@
     "test:e2e": "playwright test",
     "build": "vite build",
     "serve": "vite preview",
-    "postinstall": "npm install"
+    "postinstall": "vite build"
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.15.5",
