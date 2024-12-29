@@ -14,7 +14,7 @@ MoneyTree is a visually engaging and intuitive budget management web application
 
 ## Technology Stack
 Built with:
-- Frontend: React, TypeScript, HTML/CSS, JavaScript (Vanta.js)
+- Frontend: React, TypeScript, HTML/CSS, JavaScript (Vanta.js, Three.js)
 - Backend: Java, Spark Java
 - Database: Firebase Firestore
 - Authentication: Clerk
