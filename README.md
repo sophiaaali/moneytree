@@ -2,10 +2,6 @@
 
 Try it out here https://welcome-to-moneytree.vercel.app/!
 
-## Contributors
-
-Emma Chen (Brown '27), Erin Kim (Brown '27), Katerina Nguyen (Brown '27), Sophia Li (Brown '27)
-
 ## Overview
 
 Description:
@@ -37,6 +33,36 @@ Deployed Vite React on Vercel: https://welcome-to-moneytree.vercel.app/
 ### Insights View
 
 - Integration with OpenAI API for personalized spending summaries and advice unique to each user's spending history at that snapshot in time
+
+## Application Usage
+
+### Log in or Sign up
+
+- Navigate to the homepage of the website and log in using email.
+
+### Access your Garden
+
+- After logging in, you’ll be taken to your personalized garden view.
+- Each plant in the garden represents a budget category (e.g., Food, Entertainment, Transportation). The health of the plant (alive, wilting, or dead) corresponds to your spending habits within that category.
+- Click on a plant in the garden to open a modal window where you can update or delete the budget for that category.
+
+### Create and Manage Budgets
+
+- Navigate to the Budgets page to create new budget categories.
+- Provide details such as the category name, budget limit, duration, plant type, and any initial spending.
+- Submit the form to add a new plant to your garden view.
+- Access budget history with options to update or delete individual budgets on this page.
+
+### Track Spending
+
+- Your garden dynamically updates as you modify spending amounts or create new budgets.
+- The progress bars and plant health visually indicate how well you’re adhering to your budget goals.
+
+### Receive Financial Insights
+
+- Access personalized summaries and advice through integration with OpenAI’s API.
+- Navigate to the Insights page to receive tailored spending insights based on your budget data and financial goals.
+
 
 ## How to...
 
@@ -76,36 +102,6 @@ Start the server
 ./run
 ```
 
-## Application Usage
-
-### Log in or Sign up
-
-- Navigate to the homepage of the website and log in using email.
-
-### Access your Garden
-
-- After logging in, you’ll be taken to your personalized garden view.
-- Each plant in the garden represents a budget category (e.g., Food, Entertainment, Transportation). The health of the plant (alive, wilting, or dead) corresponds to your spending habits within that category.
-- Click on a plant in the garden to open a modal window where you can update or delete the budget for that category.
-
-### Create and Manage Budgets
-
-- Navigate to the Budgets page to create new budget categories.
-- Provide details such as the category name, budget limit, duration, plant type, and any initial spending.
-- Submit the form to add a new plant to your garden view.
-- Access budget history with options to update or delete individual budgets on this page.
-
-### Track Spending
-
-- Your garden dynamically updates as you modify spending amounts or create new budgets.
-- The progress bars and plant health visually indicate how well you’re adhering to your budget goals.
-
-### Receive Financial Insights
-
-- Access personalized summaries and advice through integration with OpenAI’s API.
-- Navigate to the Insights page to receive tailored spending insights based on your budget data and financial goals.
-
-
 ## Comprehensive automated testing suite:
 
 Front-end Testing: Playwright
@@ -130,6 +126,10 @@ Back-end Testing: Unit Testing
 
 - Unit tests for all handlers
 - Tests with mocked firebase storage and mocked OpenAI client
+
+## Contributors
+
+Emma Chen (Brown '27), Erin Kim (Brown '27), Katerina Nguyen (Brown '27), Sophia Li (Brown '27)
 
 ## Citation
 
